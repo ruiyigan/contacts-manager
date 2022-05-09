@@ -44,12 +44,12 @@ const EditContact: React.FC<EditContactProps> = ({
         setisEditing(false)
     }
     return (
-        <div className="min-h-full flex items-center justify-center py-24 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-full flex items-center justify-center py-24 px-4 sm:px-6 lg:px-8 h-screen dark:bg-gray-600">
             <BackButton setFalse={setisEditing}/>
             <LogoutButton />
             <div className="max-w-md w-full space-y-8">
                 <div>
-                    <h2 className="mt-6 text-left text-2xl font-extrabold text-gray-900">Update Contact</h2>
+                    <h2 className="mt-6 text-left text-2xl font-extrabold text-gray-900 dark:text-white">Update Contact</h2>
                 </div>
                 <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
                     <div className="rounded-md shadow-sm -space-y-px">

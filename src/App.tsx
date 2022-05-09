@@ -19,7 +19,7 @@ function App() {
     }
 
     return (
-        <div>
+        <div className='h-screen dark:bg-gray-600'>
             <Login />
         </div>
     );

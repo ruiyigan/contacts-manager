@@ -25,7 +25,7 @@ const Login: React.FC<LoginProps> = () => {
                         src="https://robohash.org/E6X.png?set=set1"
                         alt="profilepic login"
                     />
-                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Log in to your account</h2>
+                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 dark:text-white">Log in to your account</h2>
                 </div>
                 <form className="mt-8 space-y-6" onSubmit={event => { event.preventDefault(); login(email, password) }}>
                     <div className="rounded-md shadow-sm -space-y-px">
