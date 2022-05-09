@@ -19,6 +19,7 @@ Visit the live prototype at https://contacts-manager-135fd.web.app/
 - Contacts Filtering
 - Logout Function
 - Mobile Responsiveness
+- Dark Mode
 
 ## Running Locally
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
