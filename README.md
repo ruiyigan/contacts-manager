@@ -37,4 +37,3 @@ Install Firebase tools and setup Firebase project
 
 ## Developers
 Gan Rui Yi
-# contacts-manager
