@@ -42,9 +42,9 @@ const ContactPage: React.FC<ContactPageProps> = ({
     }
 
     return (
-        <div className='flex-col flex'>
+        <div className='flex-col flex h-screen dark:bg-gray-600'>
             <LogoutButton />
-            <h1 className='invisible sm:visible py-2 mt-6 text-center text-2xl font-extrabold leading-10 '>Welcome {user.name}</h1>
+            <h1 className='invisible sm:visible py-2 mt-6 text-center text-2xl font-extrabold leading-10 dark:text-teal-500'>Welcome {user.name}</h1>
             <ContactTable contacts={contacts} setContacts={setContacts} setSelectedContact={setSelectedContact} setisEditing={setisEditing} setisViewing={setisViewing} setAddNew={setAddNew}/>
         </div>
     );
