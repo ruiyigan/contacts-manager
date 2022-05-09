@@ -1,6 +1,6 @@
 # Contacts Manager 
 ## React with Typescript, Tailwind CSS & Firebase
-Visit the live prototype at 
+Visit the live prototype at https://contacts-manager-135fd.web.app/
 
 ## Tech Stack
 - React
